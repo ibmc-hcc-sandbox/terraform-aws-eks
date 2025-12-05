@@ -2,10 +2,10 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: aws-terraform-module-eks
-  title: Terraform Module to Deploy EKS CLuster
+  title: Terraform Module to Deploy AWS EKS Cluster
   language: terraform
   description: |
-    This Terraform automation creates and manages the EKS Cluster
+    This Terraform automation creates and manages the AWS EKS Cluster
   annotations:
     github.com/project-slug: ibmc-hcc-sandbox/terraform-aws-eks
     backstage.io/techdocs-ref: dir:.
@@ -13,8 +13,9 @@ metadata:
   tags:
     - terraform
     - aws
+    - k8s
 
 spec:
   type: service
-  owner: Platform-Engineering-Services/ansible-code-managers
+  owner: platform-engineering-team
   lifecycle: production
