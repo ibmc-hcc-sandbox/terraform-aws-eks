@@ -9,6 +9,7 @@ metadata:
   annotations:
     github.com/project-slug: ibmc-hcc-sandbox/terraform-aws-eks
     backstage.io/techdocs-ref: dir:.
+    sonarqube.org/project-key: default/ibmc-hcc-sandbox_terraform-aws-eks
   tags:
     - terraform
     - aws
